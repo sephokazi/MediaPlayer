@@ -1,0 +1,50 @@
+.root {
+    -fx-background-color: #212121;
+}
+ .controls {
+    -fx-display: flex;
+    -fx-position: absolute;
+    -fx-width: 100%;
+    -fx-bottom: 0;
+    -fx-background: linear-gradient(to bottom, transparent, #000);
+    -fx-align-items: center;
+    -fx-transition: opacity .2s;
+}
+
+.player {
+  -fx-width: 35em;
+  -fx-height: 15.5em;
+  -fx-position: relative;
+}
+player {
+  -fx-width: 100%;
+  -fx-height: 100%;
+  -fx-background:purple;
+}
+player.play .controls {
+  -fx-opacity: 0;
+}
+
+player:hover .controls {
+  -fx-opacity: 1;
+}
+
+.control-button.play {
+  -fx-height: 45px;
+  -fx-width: 45px;
+}
+
+.control-button.pause {
+  -fx-height: 45px;
+  -fx-width: 45px;
+}
+.control-button.stop
+ {
+  -fx-height: 45px;
+  -fx-width: 45px;
+}
+
+
+
+
+
